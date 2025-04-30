@@ -1,0 +1,19 @@
+<!DOCTYPE html>
+<html xmlns:th="http://www.thymeleaf.org">
+<head>
+<title>Enter Address</title>
+
+<link rel="stylesheet" th:href="@{/css/style3.css}">
+</head>
+<body>
+	<h1>Enter Address</h1>
+	<div class="outer">
+		<form th:action="@{/students-by-address}" method="get">
+		
+			<label for="address">Address:</label> 
+			<input type="text" id="address" name="address" required  placeholder="enter student location"/> <br>
+			<button type="submit">Submit</button>
+		</form>
+	</div>
+</body>
+</html>

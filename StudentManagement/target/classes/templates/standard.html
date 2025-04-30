@@ -1,0 +1,22 @@
+<!DOCTYPE html>
+<html xmlns:th="http://www.thymeleaf.org">
+<head>
+<title>Enter Standard</title>
+
+<link rel="stylesheet" th:href="@{/css/style2.css}">
+</head>
+<body>
+	<h1>Enter Standard</h1>
+	<div class="outer">
+	    
+		<form th:action="@{/students-by-standard}" method="get" autocomplete="off" >
+		
+			<label for="standard">Standard:</label> 
+			<input type="text" 	id="standard" name="standard" required placeholder="enter standard" /> <br>
+			
+			<button type="submit">Submit</button>
+		</form>
+	
+	</div>
+</body>
+</html>

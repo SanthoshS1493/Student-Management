@@ -1,0 +1,141 @@
+@charset "UTF-8";
+
+   /* Student Form Html */
+
+
+* {
+	margin: 0;
+	padding: 0;
+	box-sizing: border-box;
+}
+
+h1 {
+	font-size: 40px;
+	font-family: cursive;
+	margin-top: 20px;
+	margin-left: 650px;
+	color: yellow;
+}
+
+body {
+	background: grey;
+	display: flex;
+	justify-content: center;
+	flex-direction: column;
+}
+
+form {
+	margin-top: 30px;
+	text-align: center;
+}
+
+.outer {
+	display: flex;
+	justify-content: center;
+}
+
+.inner {
+	border: 2px solid white;
+	border-radius: 20%;
+	padding-right: 30px;
+	background-color: brown;
+	box-shadow: 5px 10px 10px white;
+}
+
+
+.inner:hover{
+	border-color:blue;
+	
+}
+
+label {
+	font-size: 20px;
+	font-weight: bold;
+}
+
+input {
+	height: 35px;
+	width: 250px;
+	border-radius: 10px;
+	border: none;
+	padding-left: 10px;
+	font-size: 15px;
+	font-family: cursive;
+}
+
+#id1 {
+	margin-left: 150px;
+	margin-right: 20px;
+}
+
+#name1 {
+	margin-left: 125px;
+	margin-right: 20px;
+}
+
+#standard1 {
+	margin-left: 95px;
+	margin-right: 20px;
+}
+
+#father1 {
+	margin-left: 50px;
+	margin-right: 20px;
+}
+
+#gender1 {
+	margin-right: 90px;
+}
+
+#address1 {
+	margin-left: 105px;
+	margin-right: 20px;
+}
+
+#phone1 {
+	margin-left: 120px;
+	margin-right: 20px;
+}
+
+button {
+	height: 35px;
+	width: 90px;
+	font-weight: bold;
+	font-size: 20px;
+	border-radius: 10px;
+	margin-bottom: 10px;
+	background: blue;
+	color: white;
+}
+
+input:hover {
+	cursor: pointer;
+	border-style:solid;
+	border-color:black;
+}
+
+button:hover{
+	cursor: pointer;
+}
+
+button:active{
+	
+	background-color: lightgreen;
+}
+
+
+
+a{
+	margin-left:850px;
+	color: white;
+	margin-bottom: 10px;
+}
+
+
+a:hover{
+	
+	color: lightgreen;
+}
+
+
+
